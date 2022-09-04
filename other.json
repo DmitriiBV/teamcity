@@ -1,0 +1,7 @@
+{"connection": {"Server Type Code": "Oracle",
+  "database": "orcl",
+  "host": "localhost",
+  "port": "1521",
+  "username": "system",
+  "password": "secret"
+}}

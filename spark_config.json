@@ -1,0 +1,18 @@
+{
+  "flows": [
+{
+  "loadType":"Scd0Append",
+  "source": { "schema":"DWH_EXPORT_E46", "table": "E46_ACC_ACCOUNT_CARD_O_V",
+    "incrementField": "ACCDC_AS_OF_DATE", "jdbcDialect": "KihDialect",
+    "columnCasts": [{"name": "ACCDC_IN_BALANCE", "colType": "decimal(38,5)"}, {"name": "ACCDC_IN_BALANCE_EQ", "colType": "decimal(38,5)"}, {"name": "ACCDC_DB_TURNOVER", "colType": "decimal(38,5)"}, {"name": "ACCDC_DB_TURNOVER_EQ", "colType": "decimal(38,5)"}, {"name": "ACCDC_DB_TRANSACTION_COUNT", "colType": "decimal(38,0)"}, {"name": "ACCDC_CR_TURNOVER", "colType": "decimal(38,5)"}, {"name": "ACCDC_CR_TURNOVER_EQ", "colType": "decimal(38,5)"}, {"name": "ACCDC_CR_TRANSACTION_COUNT", "colType": "decimal(38,0)"}, {"name": "ACCDC_OUT_BALANCE", "colType": "decimal(38,5)"}, {"name": "ACCDC_OUT_BALANCE_EQ", "colType": "decimal(38,5)"}, {"name": "ACCDC_DB_TURNOVER_BS", "colType": "decimal(38,5)"}, {"name": "ACCDC_CR_TURNOVER_BS", "colType": "decimal(38,5)"}, {"name": "ACCDC_IN_BALANCE_BS", "colType": "decimal(38,5)"}, {"name": "ACCDC_OUT_BALANCE_BS", "colType": "decimal(38,5)"}]},
+  "target": { "table": "e46_acc_account_card_o", "businessKeys": ["ACCDC_AS_OF_DATE", "ACCDC_ACNT_GID"],
+    "partitionFields": ["PARTITION_ACCDC_AS_OF_DATE"],
+    "aggregationField": "CAST(EXTRACT(YEAR FROM CAST(ACCDC_AS_OF_DATE AS TIMESTAMP)) AS STRING) AS PARTITION_ACCDC_AS_OF_DATE"}
+}
+],
+"commonInfo": {
+  "targetSchema": "target_db_full",
+  "etlSchema": "etl_schema_full",
+  "logsTable": "target_db_full"
+}
+}
