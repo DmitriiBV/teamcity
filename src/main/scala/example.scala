@@ -14,6 +14,8 @@ object example {
 
     print(json)
 
+    print(data)
+
 
 
   }
