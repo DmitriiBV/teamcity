@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="teamcity:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/teamcity_jar</output-path>
+    <root id="archive" name="teamcity.jar">
+      <element id="module-output" name="teamcity" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/lihaoyi/ujson_2.13/2.0.0/ujson_2.13-2.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/lihaoyi/geny_2.13/0.7.1/geny_2.13-0.7.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.13.1/jackson-core-2.13.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/lihaoyi/upack_2.13/2.0.0/upack_2.13-2.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/json4s/json4s-jackson-core_2.13/4.1.0-M1/json4s-jackson-core_2.13-4.1.0-M1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/lihaoyi/requests_2.13/0.7.1/requests_2.13-0.7.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/lihaoyi/upickle-implicits_2.13/2.0.0/upickle-implicits_2.13-2.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/lihaoyi/upickle_2.13/2.0.0/upickle_2.13-2.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.13.1/jackson-annotations-2.13.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/json4s/json4s-core_2.13/4.1.0-M1/json4s-core_2.13-4.1.0-M1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.13.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.13.1/jackson-databind-2.13.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/json4s/json4s-ast_2.13/4.1.0-M1/json4s-ast_2.13-4.1.0-M1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/lihaoyi/upickle-core_2.13/2.0.0/upickle-core_2.13-2.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/lihaoyi/os-lib_2.13/0.8.1/os-lib_2.13-0.8.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/json4s/json4s-scalap_2.13/4.1.0-M1/json4s-scalap_2.13-4.1.0-M1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

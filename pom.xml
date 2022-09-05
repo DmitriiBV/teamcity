@@ -31,17 +31,17 @@
         </dependency>
         <dependency>
             <groupId>org.json4s</groupId>
-            <artifactId>json4s-jackson-core_2.13</artifactId>
+            <artifactId>json4s-core_2.13</artifactId>
             <version>4.1.0-M1</version>
         </dependency>
         <dependency>
             <groupId>org.json4s</groupId>
-            <artifactId>json4s-jackson-core_2.13</artifactId>
+            <artifactId>json4s-ast_2.13</artifactId>
             <version>4.1.0-M1</version>
         </dependency>
         <dependency>
             <groupId>org.json4s</groupId>
-            <artifactId>json4s-jackson-core_2.13</artifactId>
+            <artifactId>json4s-scalap_2.13</artifactId>
             <version>4.1.0-M1</version>
         </dependency>
         <dependency>
@@ -50,4 +50,34 @@
             <version>0.7.1</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.4.2</version>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <archive>
+                        <manifest>
+                            <mainClass>teamcity.example</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+
 </project>

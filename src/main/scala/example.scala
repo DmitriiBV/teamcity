@@ -12,9 +12,11 @@ object example {
 
     var data = ujson.read(jsonString)
 
-    print(json)
+    println(json)
 
-    print(data)
+    println()
+
+    println(data)
 
 
 
