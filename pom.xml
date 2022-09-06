@@ -99,7 +99,6 @@
                     <archive>
                         <manifest>
                             <mainClass>teamcity.example</mainClass>
-                            <sourceDir>src/main/scala</sourceDir>
                         </manifest>
                         <includes>
                             <include>teamcity/**</include>
